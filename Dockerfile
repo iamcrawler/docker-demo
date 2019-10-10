@@ -5,6 +5,6 @@ ARG JAR_FILE
 COPY ${JAR_FILE} /docker/docker-demo.jar
 #ADD docker-demo.jar /docker/docker-demo.jar
 # 启动容器时执行
-CMD sh /docker/docker-demo.sh
+ENTRYPOINT ["java","-Djava.security.egd=file:/docker","-jar","/docker/docker-demo.jar"]
 # 使用端口
 EXPOSE 7779
