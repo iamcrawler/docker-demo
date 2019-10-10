@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.iamcrawler</groupId>
     <artifactId>docker-demo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>latest</version>
     <name>docker-demo</name>
     <description>Demo project for Spring Boot</description>
 
