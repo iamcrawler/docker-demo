@@ -3,8 +3,7 @@ FROM openjdk:8-jdk-alpine
 ARG JAR_FILE
 # 复制打包完成后的jar文件到/opt目录下
 COPY ${JAR_FILE} /docker/docker-demo.jar
-#ADD docker-demo.jar /docker/docker-demo.jar
 # 启动容器时执行
-ENTRYPOINT ["java","-Djava.security.egd=file:/docker","-jar","/docker/docker-demo.jar"]
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/docker/docker-demo.jar"]
 # 使用端口
 EXPOSE 7779
