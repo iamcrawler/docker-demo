@@ -46,6 +46,7 @@
                 <version>1.4.10</version>
                 <configuration>
                     <repository>${project.artifactId}</repository>
+                    <imageName>${project.artifactId}</imageName>
                     <contextDirectory>./target/classes/</contextDirectory>
                     <tag>${project.version}</tag>
                     <buildArgs>
