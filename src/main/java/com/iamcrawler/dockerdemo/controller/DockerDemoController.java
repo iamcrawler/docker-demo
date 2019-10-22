@@ -20,9 +20,9 @@ public class DockerDemoController {
         return ResponseEntity.ok("hello docker");
     }
 
+    @GetMapping("/test")
     public ResponseEntity mysqlDemo(){
-        
-        return null;
+        return ResponseEntity.ok("test");
     }
 
 }
