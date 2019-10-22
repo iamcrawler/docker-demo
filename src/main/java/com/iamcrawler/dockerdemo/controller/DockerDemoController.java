@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * create by liuliang
  * on 2019-10-10  10:34
+ * 部署demo :
+ * http://www.ityouknow.com/springboot/2018/03/19/spring-boot-docker.html
  */
 @RestController
 @RequestMapping("/docker")
