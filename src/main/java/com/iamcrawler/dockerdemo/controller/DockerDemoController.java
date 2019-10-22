@@ -19,4 +19,10 @@ public class DockerDemoController {
     public ResponseEntity demo(){
         return ResponseEntity.ok("hello docker");
     }
+
+    public ResponseEntity mysqlDemo(){
+        
+        return null;
+    }
+
 }
