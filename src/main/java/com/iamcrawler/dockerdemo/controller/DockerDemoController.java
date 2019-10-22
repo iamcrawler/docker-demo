@@ -25,4 +25,9 @@ public class DockerDemoController {
         return ResponseEntity.ok("test");
     }
 
+
+    @GetMapping("/test1")
+    public ResponseEntity mysqlDemo1(){
+        return ResponseEntity.ok("test1");
+    }
 }
