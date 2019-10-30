@@ -35,29 +35,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-<!--        &lt;!&ndash;mysql&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>mysql</groupId>-->
-<!--            <artifactId>mysql-connector-java</artifactId>-->
-<!--            <scope>runtime</scope>-->
-<!--        </dependency>-->
-
-
-<!--        &lt;!&ndash;mybatis-plus&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.baomidou</groupId>-->
-<!--            <artifactId>mybatis-plus-boot-starter</artifactId>-->
-<!--            <version>3.1.0</version>-->
-<!--        </dependency>-->
-
-<!--        &lt;!&ndash;数据源实现类所在包&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.alibaba</groupId>-->
-<!--            <artifactId>druid</artifactId>-->
-<!--            <version>1.0.29</version>-->
-<!--        </dependency>-->
-
     </dependencies>
 
     <build>
