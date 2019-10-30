@@ -40,11 +40,6 @@ public class DockerDemoController {
 
     public static void main(String[] args) {
 
-//        List<MyUser> list = new ArrayList<>();
-//        MyUser myUser  = new MyUser();
-//        myUser.setId("1");
-//        myUser.setName("ll");
-//        list.add(myUser);
         List<MyUser> list = new ArrayList<>();
         Optional.ofNullable(list).orElseGet(
                 ()->{
